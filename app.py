@@ -1,14 +1,3 @@
-"""
-app.py
-Streamlit dashboard for:
-COMP 3106 – Fuzzy Logic Health Risk Prediction System
-
-Frontend: Streamlit
-Backend:  fuzzy_model.py (Tirth’s fuzzy logic)
-
-Run with:
-    streamlit run app.py
-"""
 
 
 import matplotlib
