@@ -1,4 +1,4 @@
-
+This project is a risk prediction system to predict someones likelyhood of cardiovascular disease
 This project implements a **complete fuzzy logic–based cardiovascular risk prediction system** with:
 
 - ✔ A full **Streamlit interactive dashboard**
