@@ -1,5 +1,3 @@
-# 🧠 Fuzzy Logic Health Risk Prediction System  
-### Final Project – COMP 3106 (Introduction to Artificial Intelligence)
 
 This project implements a **complete fuzzy logic–based cardiovascular risk prediction system** with:
 
@@ -13,7 +11,7 @@ The system allows **both single-patient prediction** and **population-level anal
 
 ---
 
-# 📁 Project Structure
+#  Project Structure
 
 ```
 Fuzzy-Logic-Health-Risk-Dashboard/
@@ -27,7 +25,7 @@ Fuzzy-Logic-Health-Risk-Dashboard/
 
 ---
 
-# 🚀 Features
+ Features
 
 ### 🔹 **Fuzzy Logic Engine (Backend)**
 Defined in `fuzzy_model.py`:
@@ -49,7 +47,7 @@ Defined in `fuzzy_model.py`:
 
 ---
 
-# 📊 Streamlit Dashboard (Frontend)
+#  Streamlit Dashboard (Frontend)
 
 Defined in `app.py`.
 
@@ -57,7 +55,7 @@ The dashboard includes **three tabs**:
 
 ---
 
-## 1️⃣ ⚡ Single Assessment (Patient-Level)
+## 1️  Single Assessment (Patient-Level)
 - Sidebar sliders for:
   - BMI  
   - Systolic BP  
@@ -66,13 +64,13 @@ The dashboard includes **three tabs**:
   - Total Cholesterol  
 - Runs fuzzy inference  
 - Displays:
-  - 📈 Risk Score (0–100)  
-  - 🔎 Risk Category  
-  - ✔ Input summary snapshot
+  -  Risk Score (0–100)  
+  -  Risk Category  
+  -  Input summary snapshot
 
 ---
 
-## 2️⃣ 📊 Dataset Analytics
+## Dataset Analytics
 - Loads raw dataset (`cleaned_risk_data.csv`)
 - Shows:
   - Interactive histograms for any numeric variable  
@@ -82,7 +80,7 @@ The dashboard includes **three tabs**:
 
 ---
 
-## 3️⃣ 📈 Model Evaluation
+## Model Evaluation
 - Loads the dataset scored with fuzzy logic  
 - Provides:
   - Paginated table of:
@@ -104,7 +102,7 @@ The dashboard includes **three tabs**:
 
 ---
 
-# 🛠 How to Run the Project
+# How to Run the Project
 
 ### 1. Install dependencies
 
@@ -140,7 +138,7 @@ This prints the first few lines of the *scored dataset*.
 
 ---
 
-# 📁 Dataset Information
+# Dataset Information
 
 `cleaned_risk_data.csv` must include the following columns:
 
@@ -188,16 +186,3 @@ app.py → Streamlit components
 
 ---
 
-# 👨‍💻 Authors
-**Christer Henrysson – Data Engineer & Model Evaluation Specialist &  AI Logic Architect 
-Tirth Raval – AI Logic Architect
-Samer Darraj – Frontend Engineer & UI/UX Systems Designer**
-
-COMP 3106 – Carleton University (2025)
-
----
-
-# 📄 License
-
-This project is for **educational use** only.  
-Feel free to extend or improve it.
