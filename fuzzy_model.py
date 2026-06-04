@@ -1,16 +1,4 @@
-"""
-fuzzy_model.py
-COMP 3106 – Fuzzy Logic Health Risk Prediction System
 
-Author: Christer Henrysson (Data Lead, AI Logic Designer), Tirth Raval (AI Logic Designer),
-
-Backend engine for:
-- Fuzzy membership system
-- Rule base
-- Fuzzy inference
-- Dataset scoring
-- UI-safe wrapper for Streamlit
-"""
 
 # =========================
 # Imports
